@@ -6,7 +6,7 @@ service 'httpd' do
   action :start
 end
 
-directory "~/www/" do
+directory "~/www/amitesh/test" do
   mode 0755
   owner 'root'
   group 'root'
