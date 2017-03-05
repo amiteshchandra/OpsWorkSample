@@ -9,7 +9,7 @@ directory "/home/ec2-user/amitesh" do
   action :create
 end
 
-cookbook_file "/var/www/index.html" do
+cookbook_file "/var/www/html/index.html" do
   source "index.html"
   mode 0644
   action :create_if_missing
